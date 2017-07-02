@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: "Raleway";
+    margin: 0;
 }
 h1{
 	color: #0D2C40;
@@ -8,6 +9,7 @@ h1{
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
+	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -16,6 +18,7 @@ a {
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
+	margin: 0 20px;
 }
 h2{
 	color: #0D2C40;
@@ -28,4 +31,19 @@ p{
 	font-family: "Droid Serif";
 	line-height: 26px;
 	font-size: 18px;
+}
+header{
+	background-color: #F15B31;
+	padding: 30px 20px;
+}
+nav{
+	background-color: #00A6B3;
+	padding: 20px 0;
+}
+main{
+	width: 850px;
+	margin: 35px auto;
+}
+img{
+	margin: 40px 8px;
 }

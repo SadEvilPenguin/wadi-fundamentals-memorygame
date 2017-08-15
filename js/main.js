@@ -23,9 +23,8 @@ var cards = [
 ];
 //function to shuffle array order like shuffling deck
 function shuffle(cards) {
-    for (var i = cards.length - 1; i > 0; i--) {
+    for (var i = cards.length - 1; i >= 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
-        console.log(j);
         var temp = cards[i];
         cards[i] = cards[j];
         cards[j] = temp;
